@@ -1,7 +1,7 @@
 
 ## Programming-Chistes
 
-A desktop and mobile friendly app that will provid a specific sense of humor, which probably could be understood only by true programmers. The app will provide a set of ten jokes thats intended to bring a smile after a long day of coding. 
+A desktop and mobile friendly app that will provide a specific sense of humor, which probably could be understood only by true programmers. The app will provide a set of ten jokes thats intended to bring a smile after a long day of coding. When debugging takes hours and you just need a break, head over to the app for a little sense of humor.
 
 ## API and Data Sample
 
