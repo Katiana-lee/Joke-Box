@@ -7,7 +7,6 @@ A desktop and mobile friendly app that will provide a specific sense of humor, w
 
 The API I am using is from [official_joke_api](https://github.com/15Dkatz/official_joke_api) which will provide randomized programmer jokes.
 
-## API DATA Sample
 ```JSON
 [
     {
