@@ -6,6 +6,8 @@ A desktop and mobile friendly app that will provid a specific sense of humor, wh
 ## API and Data Sample
 
 The API I am using is from [official_joke_api](https://github.com/15Dkatz/official_joke_api) which will provide randomized programmer jokes.
+
+## API DATA Sample
 ```JSON
 [
     {
@@ -18,13 +20,7 @@ The API I am using is from [official_joke_api](https://github.com/15Dkatz/offici
 
 ## Wireframes
 
-![Programmer Chistes Wireframe](https://wireframe.cc/2GeUe4)
-
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
-#### MVP 
+[Programmer Chistes Wireframe](https://wireframe.cc/2GeUe4)
 
 #### MVP 
 - Recieve data endpoints
