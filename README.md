@@ -46,7 +46,7 @@ The API I am using is from [official_joke_api](https://github.com/15Dkatz/offici
 
 ## Priority Matrix
 
-![Importance Matrix](https://app.moqups.com/52gSDJn7jw/view/page/aa9df7b72?ui=0)
+[Importance Matrix](https://app.moqups.com/52gSDJn7jw/view/page/aa9df7b72?ui=0)
 
 ## Timeframes
 
