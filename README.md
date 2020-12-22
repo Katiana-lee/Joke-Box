@@ -18,7 +18,7 @@ The API I am using is from [official_joke_api](https://github.com/15Dkatz/offici
 
 ## Wireframes
 
-[Programmer Chistes Wireframe](https://wireframe.cc/2GeUe4)
+![Programmer Chistes Wireframe](https://wireframe.cc/2GeUe4)
 
 ### MVP/PostMVP
 
@@ -49,7 +49,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Priority Matrix
 
-[Importance Matrix](https://app.moqups.com/52gSDJn7jw/view/page/aa9df7b72?ui=0)
+![Importance Matrix](https://app.moqups.com/52gSDJn7jw/view/page/aa9df7b72?ui=0)
 
 ## Timeframes
 
