@@ -1,11 +1,11 @@
 
-## Programer-Chistes
+## Joke Box
 
-A desktop and mobile friendly app that will provide a specific sense of humor, which probably could be understood only by true programmers. The app will provide a set of ten jokes thats intended to bring a smile after a long day of coding. When debugging takes hours and you just need a break, head over to the app for a little sense of humor.
+A desktop and mobile friendly app that will provide four different categories of sense of humor. The user will have the option of choosing which catergory they prefer, and the joke will render within the specified box. Think of it as wheel of fourtune, but switch out the words and potentially winning money with a joke intened to put a smile on your face. Im sure that's needed after a long day of coding or debugging.
 
 ## API and Data Sample
 
-The API I am using is from [official_joke_api](https://github.com/15Dkatz/official_joke_api) which will provide randomized programmer jokes.
+The API I am using is from [official_joke_api](https://github.com/15Dkatz/official_joke_api) which will provide randomized jokes.
 
 ```JSON
 [
@@ -24,14 +24,13 @@ The API I am using is from [official_joke_api](https://github.com/15Dkatz/offici
 
 #### MVP 
 - Recieve data endpoints
-- Imbedding images 
+- Adding an image when a joke is clicked on
 - Using flexbox and CSS to create more authenticity of how the data will be rendered on the page
-- Allow user to save their favorite quotes
+- Imbed a like button
 
 #### PostMVP  
 - Responsive background
 - Add animation to make the app fun/engaging 
-- Imbed background music
  
 ## Project Schedule
 
