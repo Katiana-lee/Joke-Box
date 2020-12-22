@@ -18,7 +18,7 @@ The API I am using is from [official_joke_api](https://github.com/15Dkatz/offici
 
 ## Wireframes
 
-[Programmer Chistes Wireframe](https://wireframe.cc/2GeUe4)A
+[Programmer Chistes Wireframe](https://wireframe.cc/2GeUe4)
 
 ### MVP/PostMVP
 
