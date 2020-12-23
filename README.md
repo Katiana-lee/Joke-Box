@@ -23,7 +23,7 @@ The API's I am using are from [official_joke_api](https://github.com/15Dkatz/off
 [Joke Box Wireframe](https://wireframe.cc/2GeUe4)
 
 #### MVP 
-- Click a button and render a joke to the screen
+- Click a button and render a joke and giphy to the screen
 - Using flexbox and CSS to create more authenticity of how the data will be rendered on the page
 - Responsive background
 
