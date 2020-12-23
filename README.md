@@ -5,7 +5,7 @@ A desktop and mobile friendly app that will provide four different categories of
 
 ## API and Data Sample
 
-The API I am using is from [official_joke_api](https://github.com/15Dkatz/official_joke_api) which will provide randomized jokes.
+The API's I am using are from [official_joke_api](https://github.com/15Dkatz/official_joke_api) and [Giphy](https://developers.giphy.com/explorer)
 
 ```JSON
 [
@@ -23,13 +23,13 @@ The API I am using is from [official_joke_api](https://github.com/15Dkatz/offici
 [Joke Box Wireframe](https://wireframe.cc/2GeUe4)
 
 #### MVP 
-- Recieve data endpoints
+- Recieve data from giphy API
 - Adding an image when a joke is clicked on
 - Using flexbox and CSS to create more authenticity of how the data will be rendered on the page
-- Imbed a like button
+- Responsive background
 
 #### PostMVP  
-- Responsive background
+- Imbed a like button
 - Add animation to make the app fun/engaging 
  
 ## Project Schedule
