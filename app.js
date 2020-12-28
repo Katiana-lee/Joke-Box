@@ -8,3 +8,7 @@ let getData = async () => {
  }
 getData()
  
+let programmerBtn = document.querySelector('.programmer')
+programmerBtn.addEventListener('click', () => {
+  console.log('you clicked me')
+})
