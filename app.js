@@ -2,7 +2,6 @@ let programSetup = document.querySelector('.program-setup')
 let programPunchLine = document.querySelector('.program-punchline')
 let jokeType = document.querySelector('.joke-type')
 let giphy = document.querySelector('.joke-giphy')
-let counter = 0
 
 let getProgramJoke = async () => {
   try {
@@ -39,11 +38,12 @@ let getKnockJoke = async () => {
   }
  }
  let getProgramGiphy = async () => {
-  try {
+   try {
+let counter = Math.floor(Math.random() * 1000)
     const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=6hcoep97hU9v6cEou7WlVp5UNs3OwIuW&q=laughing&limit=1&offset=${counter}&rating=g&lang=en`)
     jokeType.textContent = "Programmer"
     giphy.src = response.data.data[0].images.original.url
-    // console.log(response.data)
+    console.log(response.data)
   } catch (error){
     console.log(error)
   }
