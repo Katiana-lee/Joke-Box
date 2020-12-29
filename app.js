@@ -56,6 +56,9 @@ programmerBtn.addEventListener('click', getProgramGiphy)
 
 let randomBtn = document.querySelector('.random')
 randomBtn.addEventListener('click', getRandomJoke)
+randomBtn.addEventListener('click', getProgramGiphy)
+
 let knockBtn = document.querySelector('.knock-knock')
 knockBtn.addEventListener('click', getKnockJoke)
+knockBtn.addEventListener('click', getProgramGiphy)
 
