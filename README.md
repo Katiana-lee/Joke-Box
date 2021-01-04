@@ -1,7 +1,7 @@
 
 ## Joke Box
 
-A desktop and mobile friendly app that will provide four different categories of sense of humor. The user will have the option of choosing which catergory they prefer, and the joke will render within the specified box. Think of it as wheel of fourtune, but switch out the words and potentially winning money with a joke intened to put a smile on your face. Im sure that's needed after a long day of coding or debugging.
+A desktop and mobile friendly app that will provide three different categories of sense of humor. The user will have the option of choosing which catergory they prefer, and the joke will render within the specified box. Think of it as wheel of fourtune, but switch out the words and potentially winning money with a joke intened to put a smile on your face. Im sure that's needed after a long day of coding or debugging.
 
 ## API and Data Sample
 
