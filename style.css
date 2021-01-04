@@ -5,17 +5,52 @@
 #7C7C7C */
 
 body {
-  width: 600px;
-  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  /* width: 600px;
+  margin: 10px auto; */
   text-align: center;
-  border: 1px solid black;
   font-family: 'Indie Flower', cursive, sans-serif;
 }
 
 button {
   font-family: 'Indie Flower', cursive, sans-serif;
-  padding: 12px  28px;
+  padding: 12px  28px ;
   border-radius: 4px;
-  display: flex;
+  transition-duration: 0.4s;
 
+  
+}
+button:hover {
+  background-color: #D31F42;
+  color: #FEFEFE
+}
+button:active {
+  transform: translateY(4px);
+}
+.programmer {
+  background-color: #FFE19A;
+  color: black;
+}
+.random {
+  background-color: #FFE19A;
+  color: black;
+}
+.knock-knock {
+  background-color: #FFE19A;
+  color: black;
+}
+.container  {
+display: flex;
+flex-direction: row;
+}
+@media (max-width: 800px) {
+  .contaier{
+    flex-direction: column;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto
 }
