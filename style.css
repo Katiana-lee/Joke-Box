@@ -1,16 +1,21 @@
+/* coolors palette
+#FFE19A
+#D31F42
+#FEFEFE
+#7C7C7C */
+
 body {
   width: 600px;
   margin: 10px auto;
   text-align: center;
   border: 1px solid black;
-  /* font-family: ; */
+  font-family: 'Indie Flower', cursive, sans-serif;
 }
 
-.button.joke-btn.programmer {
-  transition-duration: 0.4s;
-}
+button {
+  font-family: 'Indie Flower', cursive, sans-serif;
+  padding: 12px  28px;
+  border-radius: 4px;
+  display: flex;
 
-.button.joke-btn.programmer{
-background-color: coral;
-color: white;
 }
