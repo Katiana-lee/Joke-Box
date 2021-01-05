@@ -4,7 +4,6 @@ body {
   text-align: center;
   font-family: 'Indie Flower', cursive, sans-serif;
   background-color: #FFE19A;
-  
 }
 
 button {
@@ -22,15 +21,8 @@ button:hover {
 button:active {
   transform: translateY(4px);
 }
-.programmer {
-  background-color: #FFE19A;
-  color: black;
-}
-.random {
-  background-color: #FFE19A;
-  color: black;
-}
-.knock-knock {
+
+.programmer, .random, .knock-knock {
   background-color: #FFE19A;
   color: black;
 }
@@ -42,7 +34,6 @@ h2 {
 .logo { 
   max-width: 250px;
   max-height: 250px; 
-  
 }
 
 .joke-container {

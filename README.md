@@ -66,7 +66,8 @@ let counter = Math.floor(Math.random() * 1000)
     const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=6hcoep97hU9v6cEou7WlVp5UNs3OwIuW&q=laughing&limit=1&offset=${counter}&rating=g&lang=en`)
     giphy.src = response.data.data[0].images.original.url 
 }
+ The code above was how I was able to access data from my second API which was getting giphy images after a joke was clicked. I first had to specify the endpoint, so that I was getting a laghing giphy instead of random giphys.
 ```
 
 ## Change Log
- The code above was how I was able to access data from my second API which was getting giphy images after a joke was clicked. I first had to specify the endpoint, so that I was getting a laghing giphy instead of random giphys. 
+For a responsive background, when the screen size adjusts to a certain size, the background color changes as well as the layout of how the information renders to the page. 
