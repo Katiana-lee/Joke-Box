@@ -3,24 +3,23 @@ let programPunchLine = document.querySelector('.program-punchline')
 let jokeType = document.querySelector('.joke-type')
 let giphy = document.querySelector('.joke-giphy')
 
+//Accessing Programmer jokes from API
 let getProgramJoke = async () => {
   try {
     const response = await axios.get(`https://official-joke-api.appspot.com/jokes/programming/random`)
-    // console.log(response.data)
     jokeType.textContent = "Programmer"
-    // giphy.src = `https://api.giphy.com/v1/gifs/search?api_key=6hcoep97hU9v6cEou7WlVp5UNs3OwIuW&q=laughing&limit=1&offset=${counter}&rating=g&lang=en`
-    programSetup.textContent = response.data[0].setup //data is showing as an array first thats why the bracket notation is used...array then object
+    programSetup.textContent = response.data[0].setup 
     programPunchLine.textContent = response.data[0].punchline
   } catch (error){
     console.log(error)
   }
 }
+//Getting Random jokes from the API
 let getRandomJoke = async () => {
   try {
     const response = await axios.get(`https://official-joke-api.appspot.com/jokes/random`)
-    // console.log(response.data)
     jokeType.textContent = "Random"
-    programSetup.textContent = response.data.setup //data is an object so bracket was not needed..object by itself
+    programSetup.textContent = response.data.setup 
     programPunchLine.textContent = response.data.punchline
   } catch (error){
     console.log(error)
@@ -36,19 +35,20 @@ let getKnockJoke = async () => {
   } catch (error){
     console.log(error)
   }
- }
+}
+ //This is where I use the second API
  let getProgramGiphy = async () => {
    try {
 let counter = Math.floor(Math.random() * 1000)
     const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=6hcoep97hU9v6cEou7WlVp5UNs3OwIuW&q=laughing&limit=1&offset=${counter}&rating=g&lang=en`)
     giphy.src = response.data.data[0].images.original.url 
-    // console.log(response.data)
+
   } catch (error){
     console.log(error)
   }
 }
-// getData()
  
+//event listeners for the buttons "jokes"
 let programmerBtn = document.querySelector('.programmer')
 programmerBtn.addEventListener('click', getProgramJoke)
 programmerBtn.addEventListener('click', getProgramGiphy)

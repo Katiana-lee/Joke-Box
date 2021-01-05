@@ -62,11 +62,11 @@ The API's I am using are from [official_joke_api](https://github.com/15Dkatz/off
 
 
 ```
-The code below was how I was able to access data from my second API which was getting giphy images after a joke was clicked. I first had to specify the endpoint, so that I was getting a laghing giphy instead of random giphys. 
 let counter = Math.floor(Math.random() * 1000)
     const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=6hcoep97hU9v6cEou7WlVp5UNs3OwIuW&q=laughing&limit=1&offset=${counter}&rating=g&lang=en`)
     giphy.src = response.data.data[0].images.original.url 
 }
 ```
 
-
+## Change Log
+ The code above was how I was able to access data from my second API which was getting giphy images after a joke was clicked. I first had to specify the endpoint, so that I was getting a laghing giphy instead of random giphys. 
