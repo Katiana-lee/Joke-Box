@@ -35,10 +35,10 @@ The API's I am using are from [official_joke_api](https://github.com/15Dkatz/off
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 22| Project Approval / API call/ HTML| Incomplete
-|Dec 23| Flexbox/ CSS | Incomplete
-|Dec 24| Second API/ Rendering Images/ Debugging | Incomplete
-|Jan 4| MVP | Incomplete
+|Dec 22| Project Approval / API call/ HTML| Complete
+|Dec 23| Flexbox/ CSS | Complete
+|Dec 24| Second API/ Rendering Images/ Debugging | Complete
+|Jan 4| MVP | Complete
 |Jan 5| Presentations | Incomplete
 
 ## Priority Matrix
@@ -49,23 +49,24 @@ The API's I am using are from [official_joke_api](https://github.com/15Dkatz/off
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Retrieving data from API | H | 4hrs| TBA | TBA |
-| Complete structure of brolierplate/HTML | M | 6hrs| TBA | TBA|
-| Javascript & DOM Munipulation | H | 8hrs| TBA | TBA |
-| CSS | H | 8hrs| TBA | TBA |
-| Add effects, event listeners, sound effects| H | 4hrs| TBA | TBA |
-| Render images| H | 6hrs| TBA | TBA |
-| Post MVP / Debugging | H | 8hrs| TBA | TBA |
-| Total | H |TBA| TBA| TBA |
+| Retrieving data from API | H | 4hrs| 3hrs | 3hrs |
+| Complete structure of brolierplate/HTML | M | 6hrs| 3hrs | 3hrs|
+| Javascript & DOM Munipulation | H | 8hrs| 8hrs | 7hrs |
+| CSS | H | 8hrs| 8hrs | 8hrs |
+| Add effects, event listeners| H | 4hrs| 4hrs | 5hrs |
+| Render images| H | 6hrs| 8hrs | 8hrs |
+| Post MVP / Debugging | M | 8hrs| 2hrs | 2hrs |
+| Total | 44 | 36| 44 |
 
 ## Code Snippet
 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+The code below was how I was able to access data from my second API which was getting giphy images after a joke was clicked. I first had to specify the endpoint, so that I was getting a laghing giphy instead of random giphys. 
+let counter = Math.floor(Math.random() * 1000)
+    const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=6hcoep97hU9v6cEou7WlVp5UNs3OwIuW&q=laughing&limit=1&offset=${counter}&rating=g&lang=en`)
+    giphy.src = response.data.data[0].images.original.url 
 }
 ```
 
-## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.
+
